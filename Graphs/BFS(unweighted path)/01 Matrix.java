@@ -4,6 +4,7 @@ public class Main {
         int cols=mat[0].length;
         int[][] res=new int[rows][cols];
 
+        
         for(int i=0;i<rows;i++){
             for(int j=0;j<cols;j++){
                 res[i][j]=Integer.MAX_VALUE-1;
